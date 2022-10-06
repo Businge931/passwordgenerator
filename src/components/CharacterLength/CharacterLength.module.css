@@ -1,0 +1,40 @@
+.length {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.length_word {
+  color: #e6e5ea;
+  font-weight: 300;
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+.length_number {
+  color: #a4ffaf;
+  font-size: 1rem;
+}
+.length_scale {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #100f15;
+}
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #a4ffaf;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+::-webkit-slider-thumb {
+  cursor: pointer;
+  background: #e6e5ea;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  appearance: none;
+}
