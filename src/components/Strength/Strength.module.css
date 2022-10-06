@@ -1,0 +1,68 @@
+.strength {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+  background-color: #18171f;
+  margin-top: 2rem;
+}
+.strength_word {
+  text-transform: uppercase;
+  color: #e6e5ea;
+  opacity: 0.6;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-inline-start: 0.6rem;
+}
+.strengthColors {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.strengthColors__label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #e6e5ea;
+}
+.strengthColors__divs {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-inline-end: 0.6rem;
+}
+.strengthColors__div {
+  height: 1.4rem;
+  width: 0.6rem;
+  /* background-color: #fb7c58; */
+}
+.border {
+  border: 0.5px solid #e6e5ea;
+  height: 1.25rem;
+  width: 0.6rem;
+}
+.tooWeak {
+  background-color: #f64a4a;
+  height: 1.4rem;
+  width: 0.6rem;
+}
+.weak {
+  background-color: #fb7c58;
+  height: 1.4rem;
+  width: 0.6rem;
+}
+.medium {
+  background-color: #f8cd65;
+  height: 1.4rem;
+  width: 0.6rem;
+}
+.strong {
+  background-color: #a4ffaf;
+  height: 1.4rem;
+  width: 0.6rem;
+}
+.emptyStrength {
+  background-color: #18171f;
+  height: 1.4rem;
+  width: 0.6rem;
+}
