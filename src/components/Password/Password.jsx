@@ -3,7 +3,7 @@ import classes from "./Password.module.css";
 import { FaRegCopy } from "react-icons/fa";
 import { useState } from "react";
 
-const Password = ({ password }) => {
+const Password = ({ password, error, errorMessage }) => {
   const [isCopied, setIsCopied] = useState(false);
 
   async function copyTextToClipboard(text) {
@@ -21,7 +21,7 @@ const Password = ({ password }) => {
         setIsCopied(true);
         setTimeout(() => {
           setIsCopied(false);
-        }, 1500);
+        }, 2000);
       })
       .catch((err) => {
         console.log(err);
@@ -33,7 +33,7 @@ const Password = ({ password }) => {
   return (
     <div className={classes.password}>
       <h4 className={classes.password_text}>
-        {password ? password : dummyPassword}
+        {password ? password : error ? errorMessage : dummyPassword}
       </h4>
       <p className={classes.password_copied}>
         <span className={classes.copied}>{isCopied && "copied"}</span>
