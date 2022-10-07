@@ -34,35 +34,21 @@
 .strengthColors__div {
   height: 1.4rem;
   width: 0.6rem;
-  /* background-color: #fb7c58; */
 }
-.border {
-  border: 0.5px solid #e6e5ea;
-  height: 1.25rem;
-  width: 0.6rem;
-}
-.tooWeak {
+
+.strengthColors__div.tooWeak {
   background-color: #f64a4a;
-  height: 1.4rem;
-  width: 0.6rem;
 }
-.weak {
+.strengthColors__div.weak {
   background-color: #fb7c58;
-  height: 1.4rem;
-  width: 0.6rem;
 }
-.medium {
+.strengthColors__div.medium {
   background-color: #f8cd65;
-  height: 1.4rem;
-  width: 0.6rem;
 }
-.strong {
+.strengthColors__div.strong {
   background-color: #a4ffaf;
-  height: 1.4rem;
-  width: 0.6rem;
 }
 .emptyStrength {
   background-color: #18171f;
-  height: 1.4rem;
-  width: 0.6rem;
+  border: 0.5px solid #e6e5ea;
 }
